@@ -2,8 +2,6 @@
 
 A unified codebase for the **simulation of an autonomous delivery drone**, developed as part of my submission for the **WingSpann Hackathon**.
 
----
-
 ## Overview
 
 This project demonstrates a fully autonomous drone capable of:
@@ -14,8 +12,6 @@ This project demonstrates a fully autonomous drone capable of:
 
 The system is built and tested in **ROS2 Jazzy** with **Gazebo simulation**, integrating **computer vision** for visual-based navigation.
 
----
-
 ## Prerequisites
 
 Ensure the following dependencies are installed before running the simulation:
@@ -24,8 +20,6 @@ Ensure the following dependencies are installed before running the simulation:
 2. **Gazebo**
 3. **OpenCV**
 4. **pyzbar** (for QR code detection)
-
----
 
 ## Task Descriptions
 
@@ -38,25 +32,21 @@ Implements two cascading **PID controllers**:
 
 This ensures stable and responsive drone flight dynamics.
 
----
-
 ### **Task 2: Autonomous Parcel Delivery**
 
 * The drone reads a **QR code** from the parcel to extract the delivery coordinates.
 * It autonomously flies to the detected location, navigating around obstacles.
 * Upon arrival, the drone safely **drops the package** at the destination.
 
----
 
 ### **Task 3: Multi-Location Search and Hover**
 
 * The drone travels to **multiple predefined coordinates**.
 * At each site, it executes a **search pattern** to locate a specific **landing marker**.
 * Once the marker is detected, the drone hovers above it before proceeding to the next location.
+  
 
----
-
-## ⚙️ How to Use
+## How to Use
 
 1. **Clone the Repository**
 
@@ -80,7 +70,6 @@ This ensures stable and responsive drone flight dynamics.
    roslaunch vitarana_drone task_1.launch
    ```
 
----
 
 ## Known Issues
 
@@ -90,7 +79,6 @@ This ensures stable and responsive drone flight dynamics.
 2. **PID Tuning**
    The drone’s responsiveness and speed can be further improved through refined **PID parameter tuning** for both attitude and position controllers.
 
----
 
 ## Future Improvements
 
@@ -98,12 +86,8 @@ This ensures stable and responsive drone flight dynamics.
 * Integrate computer vision-based landing detection.
 * Add delivery confirmation via camera or sensor feedback.
 
----
-
 ## License
 
 This project is developed for **WingSpann Hackathon** and is open for educational and research use.
-
----
 
 Would you like me to make this version **Markdown-styled with emojis and formatting for GitHub (bold, tables, etc.)**, or keep it **plain and minimalist for technical submission format** (as typically required in hackathons)?
