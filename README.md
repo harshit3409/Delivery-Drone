@@ -89,5 +89,3 @@ This ensures stable and responsive drone flight dynamics.
 ## License
 
 This project is developed for **WingSpann Hackathon** and is open for educational and research use.
-
-Would you like me to make this version **Markdown-styled with emojis and formatting for GitHub (bold, tables, etc.)**, or keep it **plain and minimalist for technical submission format** (as typically required in hackathons)?
