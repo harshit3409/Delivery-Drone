@@ -2,7 +2,7 @@
 
 A collective codebase for the simulation of an autonomous delivery drone as a part of my submissions for the WingSpann Hackathon.
 ## Requisites
-  1. ROS Melodic
+  1. ROS2 Jazzy
   2. Gazebo
   3. OpenCV
   4. pyzbar library
